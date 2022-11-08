@@ -1,0 +1,143 @@
+/* @import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;500;600&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background-color: rgb(92, 6, 22); */
+
+    background-image: url(istockphoto-1152192812-1024x1024.jpg);
+}
+
+.wrapper{
+    width: 450px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 9px;
+
+}
+
+.wrapper .upload-box{
+    height: 225px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px dashed #afafaf;
+}
+.wrapper.active  .upload-box{
+    border: none;
+}
+
+.upload-box p{
+    font-size: 1rem;
+    margin-top: 20px;
+
+}
+
+.wrapper.active  .upload-box p{
+    display: none;
+}
+
+.wrapper.active .upload-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+.wrapper .content{
+    margin-top: 28px;
+
+}
+
+.content .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.content .row .column{
+    width: calc(100% / 2 - 15px);
+}
+
+
+.row .column label{
+    font-size:  1.06rem;
+}
+
+
+.sizes .column input{
+    width: 100%;
+    height: 49px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 1.06rem;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+}
+
+.sizes .column input:focus{
+    padding: 0 14px;
+    border: 2px solid rgb(194,20,51);
+}
+.content .checkboxes{
+    display: flex;
+    align-items: center;
+}
+
+
+.checkboxes .column input{
+    width: 17px;
+    height: 17px;
+    margin-right: 9px;
+    accent-color: rgb(194,20,51);
+
+}
+
+.content .download-btn{
+    width: 100%;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1,06rem;
+    border-radius: 5px;
+    background-color: rgb(104, 8, 26);
+    padding:  15px 0;
+    margin: 30px 0 10px;
+    text-transform: uppercase;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

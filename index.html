@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="upload-box">
+            <input type="file" accept="image/*" hidden>
+            <img src="Upload-PNG-Image-File.png" alt="" style="height: 81px; width : 111px;">
+            <p>Browse File to Upload</p>
+        </div>
+
+        <div class="content">
+            <div class="row sizes">
+                <div class="column width">
+                    <label>width</label>
+                    <input type="number" name="" id="">
+                </div>
+                <div class="column height">
+                    <label>height</label>
+                    <input type="number" name="" id="">
+                </div>
+            </div>
+            <div class="row checkboxes">
+                <div class="column ratio">
+                    <input type="checkbox" name="" id="ratio">
+                    <label for="ratio">Lock aspect ratio</label>
+
+                </div>
+
+                <div class="column quality">
+                    <input type="checkbox" name="" id="ratio">
+                    <label for="ratio">Reduce ratio</label>
+
+                </div>
+            </div>
+            <button class="download-btn">Download-Image</button>
+        </div>
+
+    </div>
+
+    <script src="index.js" type="text/javascript"></script>
+
+</body>
+
+</html>
